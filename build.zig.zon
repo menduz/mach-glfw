@@ -2,9 +2,13 @@
     .name = "mach-glfw",
     .version = "0.2.0",
     .dependencies = .{
+        // .xcode_frameworks = .{
+        //     .url = "https://github.com/hexops/xcode-frameworks-pkg/archive/f8b854f9a1f4b4602b4f998ee42588d524d44e52.tar.gz",
+        //     .hash = "1220ab440d1b8484038d619f743ef6a71e3683d13152eae941aa2d6bcb12fcea3135",
+        // },
         .xcode_frameworks = .{
-            .url = "https://github.com/hexops/xcode-frameworks-pkg/archive/f8b854f9a1f4b4602b4f998ee42588d524d44e52.tar.gz",
-            .hash = "1220ab440d1b8484038d619f743ef6a71e3683d13152eae941aa2d6bcb12fcea3135",
+            .url = "https://github.com/menduz/xcode-frameworks-pkg/archive/55f954fc5de76cad98a67009971598c1ce51844d.tar.gz",
+            .hash = "1220d01e22280534d5053462c5194106b0b09ead25c9b7ffa86e914eabf5cbd0652f",
         },
         .glfw = .{
             .url = "https://pkg.machengine.org/glfw/92abc63294d389c8f2a546686b6c072930b029e0.tar.gz",
